@@ -8,7 +8,38 @@
         <title>Gradie - Sign Up</title>
     </head>
     <body class="flex">
-        <section class="box left"></section>
-        <section class="box right"></section>
+        <section class="box left">
+            <h1>Gradie</h1>
+            <p>Beautiful Gradients in seconds.</p>
+        </section>
+        <section class="box right">
+            <h1>Login</h1>
+            <form action="#">
+                <label for="email">Email</label>
+                <input
+                    type="text"
+                    name="email"
+                    id="email"
+                    placeholder="johndoe@mail.com"
+                    required
+                />
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="At least 8 characters"
+                    minlength="8"
+                />
+                <div class="terms">
+                    <input type="checkbox" name="checkbox" id="checkbox" />
+                    <span
+                        >By creating an account, you agree to the
+                        <a href="#" class="link">Terms & Conditions</a></span
+                    >
+                </div>
+                <button>Create an Account</button>
+            </form>
+        </section>
     </body>
 </html>
