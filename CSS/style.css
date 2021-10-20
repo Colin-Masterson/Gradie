@@ -43,7 +43,7 @@ img {
 
 .left {
     background-color: #013243;
-    background-image: url(/Images/iphone.png);
+    background-image: url(../Images/iphone.png);
     border-radius: 10px 0 0 10px;
     background-position: bottom;
     background-repeat: no-repeat;
